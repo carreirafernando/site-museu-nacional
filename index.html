@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Museu Nacional</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div id="container">    <!-- INÍCIO CONTAINER -->
+
+            <header>            <!-- INÍCIO HEADER -->
+
+                <div id="logo">
+                    <h1><a href="">Museu Nacional</a></h1>
+                </div>
+
+                <nav>           <!-- INÍCIO NAV -->
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Exposições</a></li>
+                        <li><a href="">Pesquisa</a></li>
+                        <li><a href="">Acervo</a></li>
+                        <li><a href="">Vídeos</a></li>
+                        <li><a href="">Fotos</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav>          <!-- FIM NAV -->
+
+            </header>           <!-- FIM HEADER -->
+
+            <div id="principal">
+
+                <div id="conteudo">
+                    <section id="capa">
+                        <img src="img/museu.png" alt="">
+                    </section>
+                </div>
+
+                <aside>
+
+                    <section id="depoimento">
+                        <img src="img/depoimento.png" alt="">
+                    </section>
+
+                    <section id="visita">
+                        <h4>Faça uma visita</h4>
+                        <form action="">
+                            <fieldset>
+                                <legend>
+                                    Selecione uma data
+                                </legend>
+                                <label for="data">Data</label>
+                                <input class="campo" type="text" id="data" placeholder="dd/mm/aaaa">
+
+                                <label for="pessoas">Pessoas</label>
+                                <input style="width: 30px;" class="campo" type="text" id="pessoas" value="1">
+                            </fieldset>
+                            <input class="botao" type="submit" value="Verificar Disponibilidade">
+                        </form>
+                    </section>
+
+                    <section id="galeria">
+                        <h4>Galeria de fotos</h4>
+                        <a href="">
+                            <img src="img/imagem1.jpg" height="93" width="93" alt="">
+                        </a>
+                        <a href="">
+                            <img src="img/imagem2.jpg" height="93" width="93" alt="">
+                        </a>
+                        <a href="">
+                            <img src="img/imagem3.jpg" height="93" width="93" alt="">
+                        </a>
+                        <a href="">
+                            <img src="img/imagem4.jpg" height="93" width="93" alt="">
+                        </a>
+                    </section>
+
+                </aside>
+            </div>
+
+        </div>                  <!-- FIM CONTAINER -->
+        
+    </body>
+</html>
